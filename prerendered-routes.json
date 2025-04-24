@@ -1,0 +1,11 @@
+{
+  "routes": {
+    "/the-homebaked-haven": {},
+    "/the-homebaked-haven/business": {},
+    "/the-homebaked-haven/business/order": {},
+    "/the-homebaked-haven/business/payment": {},
+    "/the-homebaked-haven/business/strategy": {},
+    "/the-homebaked-haven/home": {},
+    "/the-homebaked-haven/navigation": {}
+  }
+}
