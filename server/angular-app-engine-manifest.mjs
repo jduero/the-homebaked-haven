@@ -1,6 +1,6 @@
 
 export default {
-  basePath: '/the-homebaked-haven',
+  basePath: 'https://jduero.github.io/the-homebaked-haven',
   supportedLocales: {
   "en-US": ""
 },

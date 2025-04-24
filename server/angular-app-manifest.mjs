@@ -2,7 +2,7 @@
 export default {
   bootstrap: () => import('./main.server.mjs').then(m => m.default),
   inlineCriticalCss: true,
-  baseHref: '/the-homebaked-haven/',
+  baseHref: 'https://jduero.github.io/the-homebaked-haven/',
   locale: undefined,
   routes: [
   {
@@ -37,14 +37,14 @@ export default {
 ],
   entryPointToBrowserMapping: undefined,
   assets: {
-    'index.csr.html': {size: 23591, hash: '50efe425adba7ddfd408d6c0b1dcc97deba4e8afc247afe1a682b40d1082ab89', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
-    'index.server.html': {size: 17165, hash: 'a1a3392485e40211d89fb744e70da3cc84f9e69e8ac79353183196bc5d2f6a22', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
-    'business/index.html': {size: 56769, hash: '9a1d893b57ce5db33f155c3029ef6617d01dd731257848633370ce8e3294dbe0', text: () => import('./assets-chunks/business_index_html.mjs').then(m => m.default)},
-    'home/index.html': {size: 27172, hash: '7882db0e4cbe4d06868faa73afc40fedec159e7fa93ee56a0681d21cb6f39b45', text: () => import('./assets-chunks/home_index_html.mjs').then(m => m.default)},
-    'navigation/index.html': {size: 56732, hash: '318eba1eb9b4c7d5aa31841263f1fe41f405c910ee9321252311d03bce4580a0', text: () => import('./assets-chunks/navigation_index_html.mjs').then(m => m.default)},
-    'business/payment/index.html': {size: 56850, hash: '2555f63325b14a35c8e29fdbd976e7772499f3ea6c930966b52e0b9655b3a153', text: () => import('./assets-chunks/business_payment_index_html.mjs').then(m => m.default)},
-    'business/strategy/index.html': {size: 56852, hash: '26a82bc1c88af1a0a35b251ca7e292db02d38508aee63257da4302f2c909debc', text: () => import('./assets-chunks/business_strategy_index_html.mjs').then(m => m.default)},
-    'business/order/index.html': {size: 86451, hash: '4a3de758a574d2f9b25b95bc472f177cc11682912b291acdc0134a7760e453ee', text: () => import('./assets-chunks/business_order_index_html.mjs').then(m => m.default)},
+    'index.csr.html': {size: 23615, hash: 'bac1024433c44f75fffcf4dc35ae9f2d4b71e3ebefede24becfbf702bc422ddd', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
+    'index.server.html': {size: 17189, hash: 'c08d97de4698b36f4b45847ca0c0760d769188ad609dd0f9be3e734930e15eb8', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
+    'home/index.html': {size: 27220, hash: '43d3350e540c74112f37268f68863b1b81f2d5bf37948ffe2eb4ec31ff68c003', text: () => import('./assets-chunks/home_index_html.mjs').then(m => m.default)},
+    'navigation/index.html': {size: 56852, hash: '543bd4f49864428a9c420e27fdaac01bac44ee88477f6545460c933b1f1a3778', text: () => import('./assets-chunks/navigation_index_html.mjs').then(m => m.default)},
+    'business/payment/index.html': {size: 56970, hash: '05c1eb382d2417ad39a2ff9d0267c6eb54bc9cbacd5304c9d7c36f6ccd4ebcdd', text: () => import('./assets-chunks/business_payment_index_html.mjs').then(m => m.default)},
+    'business/index.html': {size: 56889, hash: 'b9596f47aa1ebdc0df7a09af11bcb73ebab5dd2e0cd0c64aa29a710c00e15537', text: () => import('./assets-chunks/business_index_html.mjs').then(m => m.default)},
+    'business/strategy/index.html': {size: 56972, hash: 'aa6b50962287d9ab1e2342b38cdb4c7945b1663b129073dc98b21ab8a62a896c', text: () => import('./assets-chunks/business_strategy_index_html.mjs').then(m => m.default)},
+    'business/order/index.html': {size: 86571, hash: '6c0db2fb28298a32be173dc325f0b956b4a9d8a6c9e8f54eb4457c579db31873', text: () => import('./assets-chunks/business_order_index_html.mjs').then(m => m.default)},
     'styles-36AW6TKX.css': {size: 6979, hash: 'vY6tjD/ce7M', text: () => import('./assets-chunks/styles-36AW6TKX_css.mjs').then(m => m.default)}
   },
 };
