@@ -1,0 +1,45 @@
+<h2 mat-dialog-title>Add New Entry</h2>
+<form [formGroup]="form">
+  <mat-dialog-content>
+    <mat-form-field appearance="outline" class="full-width spaced-field">
+      <mat-label>Name</mat-label>
+      <input matInput formControlName="name">
+    </mat-form-field>
+
+    <mat-form-field appearance="outline" class="full-width spaced-field">
+      <mat-label>Address</mat-label>
+      <input matInput formControlName="address">
+    </mat-form-field>
+
+    <mat-form-field appearance="outline" class="full-width spaced-field">
+      <mat-label>MC</mat-label>
+      <input matInput formControlName="mc" type="number">
+    </mat-form-field>
+
+    <mat-form-field appearance="outline" class="full-width spaced-field">
+      <mat-label>UC</mat-label>
+      <input matInput formControlName="uc" type="number">
+    </mat-form-field>
+
+    <mat-form-field appearance="outline" class="full-width spaced-field">
+      <mat-label>TS</mat-label>
+      <input matInput formControlName="ts" type="number">
+    </mat-form-field>
+
+    <mat-form-field appearance="outline" class="full-width spaced-field">
+      <mat-label>HR</mat-label>
+      <input matInput formControlName="hr" type="number">
+    </mat-form-field>
+
+    <mat-form-field floatLabel="always">
+      <mat-label>Amount</mat-label>
+      <input matInput disabled:true type="number" class="example-right-align" placeholder="0" formControlName="price" />
+      <span matTextPrefix>Php&nbsp;</span>
+    </mat-form-field>
+  </mat-dialog-content>
+
+  <mat-dialog-actions align="end">
+    <button mat-button mat-dialog-close>Cancel</button>
+    <button mat-button color="primary" (click)="submit()">Save</button>
+  </mat-dialog-actions>
+</form>
